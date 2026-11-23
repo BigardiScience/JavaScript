@@ -32,7 +32,7 @@ let pergunta3 = prompt('Qual sua pontuação? ')
 if (pergunta3 >= 100) {
     alert('Parabéns')
 } else {
-    alert('Se fodeu')
+    alert('Tente novamente para ganhar.')
 }
 
 //Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
@@ -46,4 +46,5 @@ alert(`Seu saldo atual é de R$${soma}.`)
 //Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
 let pergunta6 = prompt('Qual seu nome? ')
+
 alert(`Boas-vindas, ${pergunta6}`)
