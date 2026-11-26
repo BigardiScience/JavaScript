@@ -1,13 +1,11 @@
-# Praticando Lógica de Programação
+# Praticando lógica de programação
 
-Projetos do curso **"Praticando lógica de programação"** da Alura, feitos em HTML, CSS e JavaScript puro.
+Projetos do curso "Praticando lógica de programação" da Alura. O HTML e o CSS vieram prontos, o desafio era fazer a página funcionar com JavaScript.
 
-| Projeto | O que faz | O que pratiquei |
-|---|---|---|
-| [Sorteador de números](./sorteador-numeros) | Sorteia números aleatórios num intervalo, sem repetir | `Math.random`, laços `for`/`while`, `includes`, validação com `if` |
-| [AluGames](./alugames) | Aluga e devolve jogos, trocando botão e imagem | `querySelector`, `classList`, parâmetros de função, template literals |
-| [Carrinho de compras](./carrinho-compras) | Adiciona produtos, calcula o total e limpa o carrinho | `split`, `parseInt`/`parseFloat`, `isNaN`, `innerHTML +=`, variável global |
+**Sorteador de números**: o primeiro. Aprendi a pegar valores dos campos com `getElementById`, usar `Math.random` e impedir número repetido com `while` e `includes`. Também coloquei uma validação pra quando o "de" é maior que o "até", porque testando percebi que dava ruim.
 
-## Como rodar
+**AluGames**: aqui apanhei um pouco. O botão não tinha `id`, então aprendi a usar o `querySelector` buscando dentro do elemento pai, e o `classList` pra trocar o estilo. Fui um pouco além do pedido e coloquei uma confirmação antes de devolver o jogo.
 
-Abra o `index.html` de qualquer projeto no navegador.
+**Carrinho de compras**: o que mais me fez pensar. Precisei separar nome e preço do produto com `split`, converter texto em número com `parseInt` e `parseFloat`, e ir acumulando o total numa variável global.
+
+Pra testar, abre o `index.html` de qualquer um no navegador.

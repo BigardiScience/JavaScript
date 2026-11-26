@@ -1,28 +1,19 @@
 # JavaScript
 
-Meu caminho aprendendo JavaScript, do primeiro `alert` até projetos com HTML e CSS.
+Aqui guardo tudo que faço enquanto aprendo JavaScript. Tem desde o primeiro `alert` até projetos que já mexem na página.
 
-## 🧩 Praticando lógica de programação
+## Praticando lógica
 
-Projetos que mexem na página: pegam dados do HTML, validam e mostram o resultado na tela.
+A pasta [praticando-logica](./praticando-logica) é onde o negócio ficou mais sério. São três projetos com HTML e CSS prontos, e o JavaScript fui eu que escrevi:
 
-| Projeto | O que faz |
-|---|---|
-| [Sorteador de números](./praticando-logica/sorteador-numeros) | Sorteia números num intervalo, sem repetir |
-| [AluGames](./praticando-logica/alugames) | Aluga e devolve jogos, trocando botão e imagem |
-| [Carrinho de compras](./praticando-logica/carrinho-compras) | Adiciona produtos, calcula o total e limpa o carrinho |
+- **[Sorteador de números](./praticando-logica/sorteador-numeros)**: sorteia números num intervalo sem repetir nenhum.
+- **[AluGames](./praticando-logica/alugames)**: uma locadora de jogos de tabuleiro. Você aluga, devolve, e o botão e a imagem mudam.
+- **[Carrinho de compras](./praticando-logica/carrinho-compras)**: adiciona produto, soma o total e limpa tudo.
 
-Detalhes do que pratiquei em cada um no [README da pasta](./praticando-logica).
+## Primeiros passos
 
-## 📚 Fundamentos
+Os arquivos soltos na raiz são das primeiras aulas: variáveis, `prompt`, `if`, `while`. O [ProjetoFinal.js](./ProjetoFinal.js) é o clássico jogo do número secreto, e o [Revisão.js](./Revisão.js) é onde revisei tudo.
 
-| Arquivo | Assunto |
-|---|---|
-| [Aula01.js](./Aula01.js) a [Aula05.js](./Aula05.js) | Variáveis, `prompt`/`alert`, condicionais e laços |
-| [ProjetoFinal.js](./ProjetoFinal.js) | Jogo do número secreto |
-| [Revisão.js](./Revisão.js) | Revisão dos conteúdos |
+## Pra rodar
 
-## ▶️ Como rodar
-
-- **Projetos de página:** abra o `index.html` do projeto no navegador.
-- **Arquivos soltos (`.js`):** cole no console do navegador (F12).
+Nos projetos, é só abrir o `index.html` no navegador. Os arquivos `.js` soltos dá pra colar no console (F12).
